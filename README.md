@@ -50,8 +50,8 @@ You are required to model the price of houses with the available independent var
       - Ridge (**Alpha = 7.0**)
       - Lasso (**Alpha = 0.001**)
       
-- Some higher valued **positive coefficients** are 'GrLivArea', 'SaleCondition(Partial)', 'Neighborhood(Crawfor)', 'OverallQual', 'OverallCond'
-- Some higher valued **negative coefficients** are 'AgeOfProperty', 'Neighborhood(IDOTRR)', 'HeatingQC(TA)', 'KitchenQual(TA)', 'BldgType(Twnhs)'.
+- Some higher valued **positive coefficients** are ['GrLivArea', 'SaleCondition(Partial)', 'Neighborhood(Crawfor)', 'OverallQual', 'OverallCond']
+- Some higher valued **negative coefficients** are ['AgeOfProperty', 'Neighborhood(IDOTRR)', 'HeatingQC(TA)', 'KitchenQual(TA)', 'BldgType(Twnhs)']
 - Higher value of Positive Coefficient, helps for high Sale Price and Higher value of Negative Coefficient, suggests dip in Sale Price.
 
 
@@ -71,7 +71,6 @@ You are required to model the price of houses with the available independent var
 
 
 ## Acknowledgements
-Give credit here.
 - This project was inspired by Upgrad.
 - Referenced from Google, Case Study, live session and Stack-Overflow
 
